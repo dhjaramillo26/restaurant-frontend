@@ -406,7 +406,7 @@ export default function RestaurantsPage() {
         </Card>
       )}
 
-      // Diálogo de confirmación de eliminación 
+      {/* Diálogo de confirmación de eliminación  */}
       <Dialog
         open={openDialog}
         onClose={handleCloseDialog}
