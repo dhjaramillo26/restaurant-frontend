@@ -202,7 +202,7 @@ export default function RestaurantsPage() {
         </Button>
       </Stack>
 
-      {/* Filtros PRO en modo filtrar */}
+
       {mode === 'filter' && (
         <Card sx={{ ...cardSx, maxWidth: 440, margin: '24px auto 18px', p: 3 }}>
           <Stack direction="row" spacing={1} alignItems="center" sx={{ mb: 2 }}>
@@ -406,7 +406,7 @@ export default function RestaurantsPage() {
         </Card>
       )}
 
-      {/* Diálogo de confirmación de eliminación */}
+      // Diálogo de confirmación de eliminación 
       <Dialog
         open={openDialog}
         onClose={handleCloseDialog}
