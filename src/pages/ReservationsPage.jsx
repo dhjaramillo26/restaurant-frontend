@@ -46,12 +46,6 @@ const mainBoxSx = {
   px: { xs: 1, md: 2 },
 };
 
-function formatDate(fechaStr) {
-  if (!fechaStr) return "";
-  const date = new Date(fechaStr + "T00:00:00");
-  const options = { year: "numeric", month: "long", day: "numeric" };
-  return date.toLocaleDateString("es-ES", options);
-}
 
 export default function ReservationsPage() {
   const [reservations, setReservations] = useState([]);
